@@ -1,0 +1,124 @@
+﻿header {
+    height: 60px;
+    background-color: #D6616A;
+}
+
+@font-face {
+    font-family: 'cafe24dangdanghae'; /*free use*/
+    src: url(./font/cafe24dangdanghae-webfont.woff);
+}
+
+/*Begin header styling*/
+    header > div {
+        color: #075162;
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr 1fr; /*%0/50 split. Puts logo and nav in line*/
+    }
+
+        header > div > img {
+            width: 192px;
+            height: 108px;
+            padding: 10px 0 0 15px;
+            /*text-align: left;
+            font-family: 'cafe24dangdanghae', sans-serif;*/
+        }
+
+        header > div > nav {
+            padding: 40px 20px 0 0;
+            position: relative;
+            right: 10%;
+            text-align: right;
+        }
+
+a {
+    padding: 0 0 0 15px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #075162;
+    font-family: 'cafe24dangdanghae', sans-serif;
+}
+
+    a:link {
+        color: #075162;
+    }
+
+    a:hover {
+        color: #A3B9C9;
+    }
+/*End header Styling*/
+
+/*Begin Main styiling*/
+/*All text should adjust to screen size.*/
+h1 {
+    font-size: 10vmin;
+    font-family: 'cafe24dangdanghae', sans-serif;
+}
+
+h2 {
+    font-size: 7vmin;
+    font-family: 'cafe24dangdanghae', sans-serif;
+}
+
+h3 {
+    font-size: 4vmin;
+    font-family: 'cafe24dangdanghae', sans-serif;
+}
+
+p {
+    font-size: 3vmin;
+    font-family: 'cafe24dangdanghae', sans-serif;
+}
+
+
+main > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /*%0/50 split. Puts text and portrait in line*/
+    width: 100%;
+    overflow: hidden; /*Creates clean cut on image and protects footer*/
+    position: absolute;
+    padding: 0 0 0 20px;
+    top: 20%;
+}
+
+    main > div > section > div {
+        position: relative;
+        top: -12%;
+        color: #D6616A;
+    }
+
+    main > div > section > img {
+        position: absolute;
+        top: -40%;
+        width: 100vmin;
+        height: 100vmin;
+        border-radius: 50%;
+    }
+
+    main > div > section > div > p > a:link {
+        color: #FF00FF;
+        font-size: 3vmin;
+    }
+
+    main > div > section > div > p > a:hover {
+        color: #FE7483;
+        font-size: 3vmin;
+    }
+
+body {
+    margin: 0;
+    background-color: #000;
+}
+
+p {
+    color: #D6616A;
+    font-family: 'cafe24dangdanghae', sans-serif;
+}
+/*End main styling*/
+
+footer {
+    text-align: center;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+}
