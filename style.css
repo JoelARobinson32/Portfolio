@@ -100,6 +100,8 @@ main > div {
         border-radius: 50%;
     }
 
+    /*The io page and the email link refuse to do what this says, so better to leave it out.*/
+    /*
     main > div > section > div > p > a:link {
         color: #FF00FF;
         font-size: 3vmin;
@@ -108,7 +110,7 @@ main > div {
     main > div > section > div > p > a:hover {
         color: #FE7483;
         font-size: 3vmin;
-    }
+    }*/
 
 body {
     margin: 0;
