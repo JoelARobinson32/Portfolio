@@ -70,6 +70,11 @@ p {
     font-family: 'cafe24dangdanghae', sans-serif;
 }
 
+li {
+    font-size: 3vmin;
+    font-family: 'cafe24dangdanghae', sans-serif;
+}
+
 
 main > div {
     display: grid;
@@ -87,7 +92,7 @@ main > div {
         color: #D6616A;
     }
 
-    main > div > section > img {
+    main > div > div > img {
         position: absolute;
         top: -40%;
         width: 100vmin;
