@@ -17,15 +17,15 @@
     }
 
         header > div > img {
-            width: 128px;
-            height: 26.9px;
+            width: 192px;
+            height: 40.35px;
             padding: 15px 0 0 0;
             position: relative;
             left: 0%;
         }
 
         header > div > nav {
-            padding: 70px 20px 0 0;
+            padding: 70px 0 0 0;
             position: relative;
             right: 10%;
             text-align: right;
